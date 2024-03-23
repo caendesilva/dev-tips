@@ -1,12 +1,13 @@
 ---
 title: Use HydePHP to create websites at incredible speed
+description: This is a HydePHP website containing random tips to developers on how they can improve their workflows.
 date: "2024-03-23 12:00"
 author: Caen
 ---
 
 ## About this site
 
-This is a HydePHP website containing random tips to developers
+This is a HydePHP website containing random tips to developers on how they can improve their workflows.
 
 ## Tech Stack
 
