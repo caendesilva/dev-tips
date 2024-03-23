@@ -21,5 +21,6 @@ This is a HydePHP website containing random tips to developers
 - Deployments are near instant and happen automatically on each commit.
 - I can focus on the content, instead of spending a lot of time on the markup
 - Site is incredibly fast and secure, and costs absolutly nothing to host.
+- Fully version controlled using Git, with collaborative GitHub editing using pull requests
 
 See the source code at https://github.com/caendesilva/dev-tips
