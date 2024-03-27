@@ -1,4 +1,9 @@
-# Quickstart commands for setting up PHP 8.3 with Nginx on Ubuntu Server 22.04
+---
+title: 'Quickstart commands for setting up PHP 8.3 with Nginx on Ubuntu Server 22.04'
+description: 'A to the point list of commands to get a Linux and PHP server up and running.'
+author: Caen
+date: '2024-03-27 15:50'
+---
 
 ## Introduction
 
@@ -108,5 +113,4 @@ sudo systemctl restart nginx
 ### Conclusion
 
 And that's it, you should now have a working server with PHP 8.3 and Nginx.
-
 
