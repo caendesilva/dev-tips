@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'name' => env('SITE_NAME', 'HydePHP'),
+    'name' => env('SITE_NAME', 'DevTips'),
 
     /*
     |--------------------------------------------------------------------------
@@ -218,7 +218,7 @@ return [
     'meta' => [
         // Meta::name('author', 'Mr. Hyde'),
         // Meta::name('twitter:creator', '@HydeFramework'),
-        // Meta::name('description', 'My Hyde Blog'),
+        Meta::name('description', 'A website with random tips for developers'),
         // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
         Meta::property('site_name', env('SITE_NAME', 'HydePHP')),
