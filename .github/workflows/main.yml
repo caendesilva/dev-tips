@@ -14,3 +14,4 @@ jobs:
       - uses: hydephp/action@master
         with:
           deploy-to: "pages"
+          env-torchlight-token: ${{ secrets.TORCHLIGHT_TOKEN }}
