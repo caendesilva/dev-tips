@@ -15,7 +15,7 @@ You might think that you've lost the changes forever, but fear not! There's a wa
 
 First, you need to find the logs from GitHub Desktop. Here are the paths where you can find the logs:
 
-```
+```bash
 # Windows
 C:\Users\USERNAME\AppData\Roaming\GitHub Desktop\logs
 
@@ -28,7 +28,7 @@ Next, find the latest log file, it will look something like `2024-04-11.desktop.
 
 Now, use the search function <kbd>Ctrl+F</kbd> to search for "Dropped stash". You should find a line that looks like this:
 
-```
+```bash
 2024-04-11T12:20:52.053Z - info: [ui] Dropped stash 'd3f88bb8f11798d3d6505b579ef140fc61da05cc' associated with master
 ```
 
@@ -48,9 +48,9 @@ From here, you can cherry pick the changes you need to your original branch.
 
 ## Conclusion
 
-I hope this guide helps you recover an overwritten stash in GitHub Desktop! If it saved you some time, consider sharing it with others who might find it useful.
+I hope this guide helps you recover an overwritten stash in GitHub Desktop! If it saved you some time, consider [sharing it with others](https://twitter.com/intent/tweet?text=How%20to%20recover%20overwritten%20stash%20in%20%23GitHubDesktop%20by%20%40CodeWithCaen&url=https%3A%2F%2Ftips.desilva.se%2Fposts%2Frecover-overwritten-stash-in-github-desktop) who might find it useful.
 
-- You can also support me by following me on Twitter <a href="https://twitter.com/CodeWithCaen">CodeWithCaen</a>. If I really helped, you can also <a href="https://www.buymeacoffee.com/caen">Buy me a coffee</a>!
+- You can support me by following me on Twitter <a href="https://twitter.com/CodeWithCaen">CodeWithCaen</a>. If I really helped, you can also <a href="https://www.buymeacoffee.com/caen">Buy me a coffee</a>!
 - You can also support the original authors by visiting the post on Stackoverflow linked below and upvoting the answer.
 
 ### Attributions
