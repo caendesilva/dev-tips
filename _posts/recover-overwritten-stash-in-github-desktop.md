@@ -17,10 +17,10 @@ First, you need to find the logs from GitHub Desktop. Here are the paths where y
 
 ```bash
 # Windows
-C:\Users\USERNAME\AppData\Roaming\GitHub Desktop\logs
+'C:\Users\USERNAME\AppData\Roaming\GitHub Desktop\logs'
 
 # macOS
-/Users/USERNAME/Library/Application Support/GitHub Desktop/logs
+'/Users/USERNAME/Library/Application Support/GitHub Desktop/logs'
 # You can also use the "Help" tab in the menu bar and click on the "Show logs in Finder" option
 ```
 
@@ -28,7 +28,7 @@ Next, find the latest log file, it will look something like `2024-04-11.desktop.
 
 Now, use the search function <kbd>Ctrl+F</kbd> to search for "Dropped stash". You should find a line that looks like this:
 
-```bash
+```log
 2024-04-11T12:20:52.053Z - info: [ui] Dropped stash 'd3f88bb8f11798d3d6505b579ef140fc61da05cc' associated with master
 ```
 
