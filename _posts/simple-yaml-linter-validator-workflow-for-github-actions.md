@@ -8,7 +8,7 @@ author: caen
 The GitHub Actions Ubuntu runners comes with [yamllint](https://github.com/adrienverge/yamllint) installed, meaning it's super simple to create linting/validating workflows to ensure your YAML is valid!
 
 
-```yml
+```yaml
 # filepath: .github/workflows/lint.yml
 name: Validate YAML
 
