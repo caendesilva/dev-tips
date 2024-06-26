@@ -5,7 +5,7 @@ author: caen
 date: '2024-06-26 10:00'
 ---
 
-# Ubuntu system temperature script without any software installs
+## Create a simple bash script/command to check your system temperatures!
 
 Here's a simple bash script to check the temperature of your Ubuntu system without installing any software. You can add this script to your `.bashrc` file to create an alias for it, making it easier to run.
 
@@ -29,7 +29,7 @@ Now you can run the `temps` command in your terminal to check the temperature of
 
 This will output the temperature of each thermal zone in your system, along with the type of sensor and the temperature in Celsius. Here's an example output:
 
-```
+```bash
 BAT0          42.2°C
 x86_pkg_temp  70.0°C
 ```
