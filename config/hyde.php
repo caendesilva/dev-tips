@@ -308,7 +308,7 @@ return [
     |
     */
 
-    'footer' => 'Site proudly built with [HydePHP](https://github.com/hydephp/hyde) 🎩 - Site source code on [GitHub](https://github.com/caendesilva/dev-tips)',
+    'footer' => 'Site proudly built with [HydePHP](https://github.com/hydephp/hyde) 🎩 - Site source code on [GitHub](https://github.com/caendesilva/dev-tips) ![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png)',
 
     /*
     |--------------------------------------------------------------------------
