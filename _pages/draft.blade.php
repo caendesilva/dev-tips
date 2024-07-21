@@ -1,6 +1,7 @@
 @extends('hyde::layouts.app')
 @section('content')
 @php($title = "Create Tip Draft")
+@php($navigation = ['hidden' => true])
 
 @push('meta')
 <meta name="robots" content="noindex, nofollow">
