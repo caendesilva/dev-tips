@@ -112,5 +112,8 @@ sudo systemctl restart nginx
 
 ### Conclusion
 
-And that's it, you should now have a working server with PHP 8.3 and Nginx.
+And that's it, you should now have a working server with PHP 8.3 and Nginx. If this post helped you, feel free to follow me on Twitter/X to find more useful tips! I'm [@CodeWithCaen](https://x.com/CodeWithCaen).
+
+You can also [Buy me a coffee](https://buymeacoffee.com/caen) if I really saved you some time!
+
 
