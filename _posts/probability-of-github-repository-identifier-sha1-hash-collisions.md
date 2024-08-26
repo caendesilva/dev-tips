@@ -12,7 +12,7 @@ Worried about SHA1 hash collisions when hashing GitHub repository names? Don't b
 
 To calculate the probability of a hash collision in this scenario, we need to consider a few key points:
 
-1. The number of repositories: 420 million[^1]
+1. The number of repositories: 420 million [1]
 2. The hash function: SHA-1
 3. The input: user+repo name (e.g., "laravel/framework")
 
@@ -82,6 +82,6 @@ In practical terms, this means that the chance of a SHA-1 hash collision for Git
 It's worth noting that while this probability is extremely low, it's not zero. In cryptography and security contexts, even such small probabilities are sometimes considered. However, for the purpose of uniquely identifying GitHub repositories, this level of collision resistance is more than sufficient.
 
 
-References:
+**References:**
 
-[^1]: [GitHub](https://github.com/about)
+- [1] [GitHub](https://github.com/about)
