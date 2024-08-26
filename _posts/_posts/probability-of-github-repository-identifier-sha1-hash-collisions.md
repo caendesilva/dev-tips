@@ -8,13 +8,17 @@ co_author: Claude
 
 Worried about SHA1 hash collisions when hashing GitHub repository names? Don't be.
 
+## Key Points
+
 To calculate the probability of a hash collision in this scenario, we need to consider a few key points:
 
-1. The number of repositories: 420 million (ref 1)
+1. The number of repositories: 420 million[^1]
 2. The hash function: SHA-1
 3. The input: user+repo name (e.g., "laravel/framework")
 
 SHA-1 produces a 160-bit hash value, which means there are 2^160 (approximately 1.46 x 10^48) possible hash values.
+
+## Calculating the Probability
 
 To calculate the probability of a collision, we can use the birthday problem approximation, which is appropriate when the number of items (n) is much smaller than the square root of the number of possible hash values (H).
 
@@ -29,6 +33,8 @@ P(collision) ≈ 1 - e^(-n^2 / (2H))
 Plugging in the values:
 
 P(collision) ≈ 1 - e^(-(420,000,000^2) / (2 * 2^160))
+
+## Python Script
 
 Here is a Python script to calculate the probability of a SHA-1 hash collision for the given scenario.
 
@@ -55,6 +61,8 @@ print(f"Probability as a fraction: 1 in {1/probability:.2e}")
 
 ```
 
+## Results
+
 Let's run this script to get the exact probability:
 
 Number of repositories: 420,000,000
@@ -63,6 +71,8 @@ Probability of a collision: 6.02e-33
 Probability as a fraction: 1 in 1.66e+32
 
 Interpretation of the results:
+
+## Interpretation
 
 1. The probability of a collision is extremely low, approximately 6.02 x 10^-33 or 0.000000000000000000000000000000602%.
 2. This can also be expressed as a 1 in 1.66 x 10^32 chance of a collision occurring.
@@ -73,4 +83,5 @@ It's worth noting that while this probability is extremely low, it's not zero. I
 
 
 References:
-1: https://github.com/about
+
+[^1]: [GitHub](https://github.com/about)
