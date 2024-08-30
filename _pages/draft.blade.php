@@ -71,7 +71,7 @@ author: caen
             const encodedMarkdown = encodeURIComponent(markdown);
 
             // Generate GitHub URL
-            const githubUrl = `https://github.com/caendesilva/dev-tips/new/master/_posts?filename=_posts/${slug}.md&value=${encodedMarkdown}`;
+            const githubUrl = `https://github.com/caendesilva/dev-tips/new/master/_posts?filename=${slug}.md&value=${encodedMarkdown}`;
 
             // Open the GitHub URL
             window.open(githubUrl, '_blank');
