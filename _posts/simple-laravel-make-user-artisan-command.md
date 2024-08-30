@@ -5,6 +5,8 @@ date: "2024-08-30"
 author: caen
 ---
 
+Need to make users from the Artisan console? Add this command!
+
 ```bash
 nano app/Console/Commands/MakeUserCommand.php
 ```
@@ -38,4 +40,8 @@ class MakeUserCommand extends Command
         $this->info("User #$user->id created successfully.");
     }
 }
+```
+
+```bash
+php artisan make:user
 ```
