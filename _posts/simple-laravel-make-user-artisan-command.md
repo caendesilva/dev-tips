@@ -5,7 +5,9 @@ date: "2024-08-30"
 author: caen
 ---
 
-Just add this to `app/Console/Commands/MakeUserCommand.php`
+```bash
+nano app/Console/Commands/MakeUserCommand.php
+```
 
 ```php
 <?php
