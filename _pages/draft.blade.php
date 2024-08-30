@@ -61,7 +61,7 @@
             const frontMatter = `---
 title: "${title}"
 description: "${description}"
-date: ${date}
+date: "${date}"
 author: caen
 ---`;
 
