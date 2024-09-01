@@ -1,7 +1,7 @@
 ---
 title: "How to upgrade your GitHub CLI (`gh`) version on Windows"
 description: "Here is how to update your GitHub CLI version on Windows."
-date: "2024-09-01"
+date: "2024-09-01 19:00"
 author: caen
 ---
 
