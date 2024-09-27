@@ -5,27 +5,28 @@ date: "2024-09-27"
 author: caen
 ---
 
-Tailwind Typography (that adds the `.prose` class) comes with a very opinionated link style. If you want the more classic one, it's easy to fix in the config. You can also go bold and use any other color of course. I'm going with Indigo for a sweet blue link.
+The Tailwind Typography plugin (that adds the `.prose` class) comes with a very opinionated link style. If you want the more classic one, it's easy to fix in the config. You can also go bold and use any other color of course. I'm going with Indigo for a sweet blue link.
 
 ```js
+// filepath: tailwind.config.js
 theme: {
     extend: {
         fontFamily: {
             sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         },
-        typography: (theme) => ({ // [tl! focus]
-            DEFAULT: { // [tl! focus]
-                css: { // [tl! focus]
-                    a: { // [tl! focus]
-                        color: theme('colors.indigo.600'), // [tl! focus]
-                        textDecoration: 'none', // [tl! focus]
-                        '&:hover': { // [tl! focus]
-                            color: theme('colors.indigo.500'), // [tl! focus]
-                        }, // [tl! focus]
-                    }, // [tl! focus]
-                }, // [tl! focus]
-            }, // [tl! focus]
-        }), // [tl! focus]
+        typography: (theme) => ({ // [tl! highlight]
+            DEFAULT: { // [tl! highlight]
+                css: { // [tl! highlight]
+                    a: { // [tl! highlight]
+                        color: theme('colors.indigo.600'), // [tl! highlight]
+                        textDecoration: 'none', // [tl! highlight]
+                        '&:hover': { // [tl! highlight]
+                            color: theme('colors.indigo.500'), // [tl! highlight]
+                        }, // [tl! highlight]
+                    }, // [tl! highlight]
+                }, // [tl! highlight]
+            }, // [tl! highlight]
+        }), // [tl! highlight]
     },
 },
 ```
