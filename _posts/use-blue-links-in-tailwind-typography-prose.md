@@ -1,5 +1,5 @@
 ---
-title: "Use Blue Links in Tailwind Typography (Prose)"
+title: "How To Use Blue Links in Tailwind Typography (Prose)"
 description: "Want to use the more classic look of links when using the Tailwind typography prose plugin? Here's how."
 date: "2024-09-27"
 author: caen
