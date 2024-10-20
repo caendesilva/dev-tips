@@ -5,7 +5,7 @@ date: "2024-10-20"
 author: caen
 ---
 
-## The new @bool Blade directive
+## The new `@bool` Blade directive
 
 Laravel's Blade templating engine is getting a handy new feature: the @bool directive. This allows you to directly print boolean values into strings or use them in object construction, making your JavaScript integrations cleaner and more efficient.
 
