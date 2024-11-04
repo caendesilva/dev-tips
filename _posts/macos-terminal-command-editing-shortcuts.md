@@ -7,67 +7,67 @@ author: caen
 
 **Command Editing Shortcuts**
 
-<code>Ctrl+a</code> – go to the start of the command line
+<code>Ctrl + A</code> – go to the start of the command line
 
-<code>Ctrl+e</code> – go to the end of the command line
+<code>Ctrl + E</code> – go to the end of the command line
 
-<code>Ctrl+k</code> – delete from cursor to the end of the command line
+<code>Ctrl + K</code> – delete from cursor to the end of the command line
 
-<code>Ctrl+u</code> – delete from cursor to the start of the command line
+<code>Ctrl + U</code> – delete from cursor to the start of the command line
 
-<code>Ctrl+w</code> – delete from cursor to start of word (i.e. delete backwards one word)
+<code>Ctrl + W</code> – delete from cursor to start of word (i.e. delete backwards one word)
 
-<code>Ctrl+y</code> – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
+<code>Ctrl + Y</code> – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
 
-<code>Ctrl+xx</code> – move between start of command line and current cursor position (and back again)
+<code>Ctrl + XX</code> – move between start of command line and current cursor position (and back again)
 
-<code>Alt+b</code> – move backward one word (or go to start of word the cursor is currently on)
+<code>Alt + B</code> – move backward one word (or go to start of word the cursor is currently on)
 
-<code>Alt+f</code> – move forward one word (or go to end of word the cursor is currently on)
+<code>Alt + F</code> – move forward one word (or go to end of word the cursor is currently on)
 
-<code>Alt+d</code> – delete to end of word starting at cursor (whole word if cursor is at the beginning of word)
+<code>Alt + D</code> – delete to end of word starting at cursor (whole word if cursor is at the beginning of word)
 
-<code>Alt+c</code> – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)
+<code>Alt + C</code> – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)
 
-<code>Alt+u</code> – make uppercase from cursor to end of word
+<code>Alt + U</code> – make uppercase from cursor to end of word
 
-<code>Alt+l</code> – make lowercase from cursor to end of word
+<code>Alt + L</code> – make lowercase from cursor to end of word
 
-<code>Alt+t</code> – swap current word with previous
+<code>Alt + T</code> – swap current word with previous
 
-<code>Ctrl+f</code> – move forward one character
+<code>Ctrl + F</code> – move forward one character
 
-<code>Ctrl+b</code> – move backward one character
+<code>Ctrl + B</code> – move backward one character
 
-<code>Ctrl+d</code> – delete character under the cursor
+<code>Ctrl + D</code> – delete character under the cursor
 
-<code>Ctrl+h</code> – delete character before the cursor
+<code>Ctrl + H</code> – delete character before the cursor
 
-<code>Ctrl+t</code> – swap character under cursor with the previous one
+<code>Ctrl + T</code> – swap character under cursor with the previous one
 
 **Command Recall Shortcuts**
 
-<code>Ctrl+r</code> – search the history backwards
+<code>Ctrl + R</code> – search the history backwards
 
-<code>Ctrl+g</code> – escape from history searching mode
+<code>Ctrl + G</code> – escape from history searching mode
 
-<code>Ctrl+p</code> – previous command in history (i.e. walk back through the command history)
+<code>Ctrl + P</code> – previous command in history (i.e. walk back through the command history)
 
-<code>Ctrl+n</code> – next command in history (i.e. walk forward through the command history)
+<code>Ctrl + N</code> – next command in history (i.e. walk forward through the command history)
 
-<code>Alt+.</code> – use the last word of the previous command
+<code>Alt + .</code> – use the last word of the previous command
 
 **Command Control Shortcuts**
 
-<code>Ctrl+l</code> – clear the screen
+<code>Ctrl + L</code> – clear the screen
 
-<code>Ctrl+s</code> – stops the output to the screen (for long running verbose command)
+<code>Ctrl + S</code> – stops the output to the screen (for long running verbose command)
 
-<code>Ctrl+q</code> – allow output to the screen (if previously stopped using command above)
+<code>Ctrl + Q</code> – allow output to the screen (if previously stopped using command above)
 
-<code>Ctrl+c</code> – terminate the command
+<code>Ctrl + C</code> – terminate the command
 
-<code>Ctrl+z</code> – suspend/stop the command
+<code>Ctrl + Z</code> – suspend/stop the command
 
 **Bash Bang (!) Commands**
 
@@ -79,7 +79,7 @@ Bash also has some handy features that use the ! (bang) to allow you to do some 
 `!blah:p` – print out the command that !blah would run (also adds it as the latest 
 command in the command history)
 
-`!$` – the last word of the previous command (same as <code>Alt+.</code>)
+`!$` – the last word of the previous command (same as <code>Alt + .</code>)
 
 `!$:p` – print out the word that !$ would substitute
 
